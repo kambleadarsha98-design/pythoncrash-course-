@@ -49,3 +49,24 @@
 # Integer (int)	10, -5, 0	+ - * // % **  (no decimal point)
 # Float (float)	3.14, -0.5	Has decimal point. Division always returns float
 #  
+
+x = 10
+y = 3
+
+print(x + y)    
+print(x - y)   
+print(x / y)   
+print(x // y)   
+print(x % y)    
+print(x ** y) 
+
+
+
+
+# # Combining strings (concatenation)
+first = 'Hello'
+second = 'World'
+print(first + ' ' + second)  # Output: Hello World
+
+ # f-string (modern, cleaner way)
+print(f"My name is {name}")  # Output: My name is kamble
